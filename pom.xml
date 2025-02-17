@@ -22,6 +22,7 @@
 
 		<maven-assembly-plugin.version>3.3.0</maven-assembly-plugin.version>
 		<maven.moditect.plugin>1.2.2.Final</maven.moditect.plugin>
+        <jpms-jsr305.version>3.0.2-r7</jpms-jsr305.version>
 	</properties>
 
 	<licenses>
@@ -32,16 +33,24 @@
 		</license>
 	</licenses>
 
-	<!-- transitive dependencies of the repackaged artifact -->
-	<dependencies>
-	<!-- None -->
-	<!-- https://mvnrepository.com/artifact/com.github.spotbugs/spotbugs-annotations -->
-	<dependency>
-		<groupId>com.github.spotbugs</groupId>
-		<artifactId>spotbugs-annotations</artifactId>
-		<version>4.9.1</version>
-	</dependency>
 
+	<!-- transitive dependencies of the repackaged artifact -->
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>dev.ikm.jpms</groupId>
+                <artifactId>jsr305</artifactId>
+                <version>${jpms-jsr305.versio}</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+    
+	<dependencies>
+	    <dependency>
+            <groupId>dev.ikm.jpms</groupId>
+            <artifactId>jsr305</artifactId>
+            <version>${jpms-jsr305.versio}</version>
+        </dependency>
 	</dependencies>
 
 	<build>
