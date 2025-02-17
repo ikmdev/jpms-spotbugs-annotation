@@ -40,7 +40,7 @@
             <dependency>
                 <groupId>dev.ikm.jpms</groupId>
                 <artifactId>jsr305</artifactId>
-                <version>${jpms-jsr305.versio}</version>
+                <version>${jpms-jsr305.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
@@ -49,7 +49,6 @@
 	    <dependency>
             <groupId>dev.ikm.jpms</groupId>
             <artifactId>jsr305</artifactId>
-            <version>${jpms-jsr305.versio}</version>
         </dependency>
 	</dependencies>
 
