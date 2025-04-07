@@ -13,12 +13,12 @@
 	<groupId>dev.ikm.jpms</groupId>
 	<artifactId>spotbugs-annotations</artifactId>
 	<packaging>jar</packaging>
-	<version>4.9.1-r2-SNAPSHOT</version>
+	<version>4.9.3-r2-SNAPSHOT</version>
 
 	<properties>
 		<!-- change release here-->
-		<core.artifact.version>4.9.1</core.artifact.version>
-		<core.artifact.release>r1</core.artifact.release>
+		<core.artifact.version>4.9.3</core.artifact.version>
+		<core.artifact.release>r2</core.artifact.release>
 
 		<maven-assembly-plugin.version>3.3.0</maven-assembly-plugin.version>
 		<maven.moditect.plugin>1.2.2.Final</maven.moditect.plugin>
