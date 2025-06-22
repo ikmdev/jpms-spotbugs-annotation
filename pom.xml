@@ -13,7 +13,7 @@
 	<groupId>dev.ikm.jpms</groupId>
 	<artifactId>spotbugs-annotations</artifactId>
 	<packaging>jar</packaging>
-	<version>4.9.3-r3-SNAPSHOT</version>
+	<version>4.9.3-r3</version>
 
 	<properties>
 		<!-- change release here-->
