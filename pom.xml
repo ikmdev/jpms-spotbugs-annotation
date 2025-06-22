@@ -14,7 +14,7 @@
 	<artifactId>spotbugs-annotations</artifactId>
 	<packaging>jar</packaging>
     <name>Spotbugs Annotations</name>
-	<version>4.9.3-r4</version>
+	<version>4.9.3-r5-SNAPSHOT</version>
 
 	<properties>
 		<!-- change release here-->
